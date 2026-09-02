@@ -1,0 +1,14 @@
+{
+  "_comment": "Static fallback rates, base=USD, used ONLY if the Frankfurter API is unreachable. These are illustrative and will drift out of date — the app flags any transaction converted with this file (rate_as_of=None in the audit trail) as using a fallback rate, not a live one. Update periodically or replace with a fresher snapshot before a live demo.",
+  "_status": "ASSUMPTION / FALLBACK ONLY",
+  "base": "USD",
+  "date": "2026-08-01",
+  "rates": {
+    "ZWG": 26.7,
+    "ZAR": 17.9,
+    "GBP": 0.75,
+    "EUR": 0.87,
+    "BWP": 13.6,
+    "ZMW": 26.0
+  }
+}

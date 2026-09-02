@@ -1,0 +1,31 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ttzBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B6E4F"/>
+      <stop offset="55%" stop-color="#0E8A63"/>
+      <stop offset="100%" stop-color="#F2B705"/>
+    </linearGradient>
+    <linearGradient id="ttzText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FCEFC7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="212" height="212" rx="42" fill="url(#ttzBg)"/>
+  <rect x="4" y="4" width="212" height="212" rx="42" fill="none" stroke="#0B3D2E" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- Subtle upward chart motif behind the wordmark, evoking "return" / growth -->
+  <polyline points="26,150 66,120 100,138 140,90 194,64"
+            fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="7"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="194" cy="64" r="6" fill="#FFFFFF" fill-opacity="0.55"/>
+
+  <text x="110" y="132" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="72" font-weight="800" text-anchor="middle" fill="url(#ttzText)"
+        letter-spacing="1">TTZ</text>
+
+  <text x="110" y="176" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="17" font-weight="600" text-anchor="middle" fill="#0B3D2E" letter-spacing="2.5">
+    TAXTRACK ZIM
+  </text>
+</svg>
